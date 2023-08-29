@@ -1,8 +1,15 @@
 [package]
 name = "txts-rs"
 description = "Rust library for interacting with txts"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
+authors = ["uhwot <uhwot@protonmail.com>"]
+homepage = "https://github.com/txts-team/txts.rs"
+repository = "https://github.com/txts-team/txts.rs"
+keywords = ["txts", "wrapper", "api"]
+categories = ["web-programming::http-client"]
+license = "MIT"
+readme = "README.md"
 
 [dependencies]
 reqwest = { version = "0.11", features = ["cookies", "brotli"] }
